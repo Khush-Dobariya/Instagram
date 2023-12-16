@@ -1,15 +1,13 @@
 package com.example.instagram.Fragments
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.example.instagram.Adapters.MyPostRvAdapter
 import com.example.instagram.Models.Post
-import com.example.instagram.R
-import com.example.instagram.databinding.ActivityPostBinding
 import com.example.instagram.databinding.FragmentMyPostBinding
 import com.google.firebase.Firebase
 import com.google.firebase.auth.auth
